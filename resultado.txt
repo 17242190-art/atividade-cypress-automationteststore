@@ -1,0 +1,72 @@
+
+================================================================================
+
+  (Run Starting)
+
+  ┌────────────────────────────────────────────────────────────────────────────────────────────────┐
+  │ Cypress:        16.3.0                                                                         │
+  │ Browser:        Electron 150 (headless) (deprecated)                                           │
+  │ Node Version:   v24.22.2 (/usr/local/share/nvm/versions/node/v24.22.2/bin/node)                │
+  │ Specs:          1 found (navegacao.cy.js)                                                      │
+  │ Searched:       cypress/e2e/navegacao.cy.js                                                    │
+  └────────────────────────────────────────────────────────────────────────────────────────────────┘
+
+Warning: The Electron browser is deprecated as a test browser and will be removed in a future version of Cypress.
+
+Switch to Chrome or another installed browser to avoid a breaking change when you upgrade.
+
+Read more about supported browsers: https://on.cypress.io/launching-browsers
+
+
+────────────────────────────────────────────────────────────────────────────────────────────────────
+                                                                                                    
+  Running:  navegacao.cy.js                                                                 (1 of 1)
+
+
+  Teste Inicial
+    1) Abre a página principal
+
+
+  0 passing (8s)
+  1 failing
+
+  1) Teste Inicial
+       Abre a página principal:
+     AssertionError: Timed out retrying after 4000ms: expected 'A place to practice your automation skills!' to include 'Automation Test Store'
+      at Context.eval (webpack://atividade-cypress-automationteststore/./cypress/e2e/navegacao.cy.js:7:15)
+
+
+
+
+  (Results)
+
+  ┌────────────────────────────────────────────────────────────────────────────────────────────────┐
+  │ Tests:        1                                                                                │
+  │ Passing:      0                                                                                │
+  │ Failing:      1                                                                                │
+  │ Pending:      0                                                                                │
+  │ Skipped:      0                                                                                │
+  │ Screenshots:  1                                                                                │
+  │ Video:        false                                                                            │
+  │ Duration:     8 seconds                                                                        │
+  │ Spec Ran:     navegacao.cy.js                                                                  │
+  └────────────────────────────────────────────────────────────────────────────────────────────────┘
+
+
+  (Screenshots)
+
+  -  /workspaces/atividade-cypress-automationteststore/cypress/screenshots/navegacao.     (1280x720)
+     cy.js/Teste Inicial -- Abre a página principal (failed).png                                    
+
+
+================================================================================
+
+  (Run Finished)
+
+
+       Spec                                              Tests  Passing  Failing  Pending  Skipped  
+  ┌────────────────────────────────────────────────────────────────────────────────────────────────┐
+  │ ✖  navegacao.cy.js                          00:08        1        -        1        -        - │
+  └────────────────────────────────────────────────────────────────────────────────────────────────┘
+    ✖  1 of 1 failed (100%)                     00:08        1        -        1        -        -  
+
